@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Test files
+*.test.js
+*.spec.js
+test/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.claude
+
+# OS
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Temporary files
+tmp/
+temp/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local

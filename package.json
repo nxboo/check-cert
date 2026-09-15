@@ -1,0 +1,44 @@
+{
+  "name": "@nxboo/check-cert",
+  "version": "1.0.0",
+  "description": "CLI tool to check HTTPS certificate expiration times for DNS records",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+  },
+  "bin": {
+    "check-cert": "index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "certificate",
+    "ssl",
+    "https",
+    "expiration",
+    "dns",
+    "tls",
+    "certificate-check",
+    "domain",
+    "cli",
+    "tool"
+  ],
+  "author": "Bin <nxb@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nxboo/check-cert.git"
+  },
+  "homepage": "https://github.com/nxboo/check-cert#readme",
+  "bugs": {
+    "url": "https://github.com/nxboo/check-cert/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "packageManager": "pnpm@12.4.1"
+}
+
