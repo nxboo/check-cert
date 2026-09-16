@@ -6,8 +6,8 @@ import https from 'https';
 const args = process.argv.slice(2);
 
 if (args.length < 1) {
-  console.error('Usage: node index.js <domain> [csv_file] [days_until_expiry]');
-  console.error('Example: node index.js example.com dnspod_export.txt 30');
+  console.error('Usage: check-cert <domain> [csv_file] [days_until_expiry]');
+  console.error('Example: check-cert example.com dnspod_export.txt 30');
   process.exit(1);
 }
 
